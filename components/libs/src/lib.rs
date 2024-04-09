@@ -16,6 +16,7 @@ pub use glob;
 pub use globset;
 pub use grass;
 pub use image;
+pub use latex2mathml;
 pub use lexical_sort;
 pub use minify_html;
 pub use nom_bibtex;

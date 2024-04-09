@@ -68,6 +68,7 @@ pub fn register_early_global_fns(site: &mut Site) -> TeraResult<()> {
             site.tera.clone(),
         ),
     );
+    site.tera.register_function("mathtex", global_fns::MathTeX::new(site.config.clone()));
 
     Ok(())
 }
